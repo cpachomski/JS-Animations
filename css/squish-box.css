@@ -4,17 +4,7 @@
 	background:#222629;
 	margin: 25px auto;
 	overflow-x:scroll;
-
 	text-align:center;
-}
-
-
-
-.squish-box:first-child{
-	margin: 60px auto;	
-}
-.squish-box:last-child{
-	margin-bottom:60px;
 }
 
 .squish-box span{
