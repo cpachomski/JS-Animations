@@ -7,7 +7,7 @@ body{
 .header{
   position:fixed; 
   background: #222629;
-  height:500px;
+  height:300px;
   width:100%;
   top:0;
   left:0;
@@ -18,10 +18,9 @@ body{
 .animation-container{
   color:#222629;
   position:relative;
-  height: 400px;
   width:50%;
   margin: 100px auto;
-  top:500px;
+  top:300px;
   border: 1px solid;
   border-color:#394045;
   z-index:1;
@@ -30,15 +29,13 @@ body{
 
 .animation-container p{
   position:relative;
-  margin: 50px 100px;
+  margin-top:25px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom:25px;
   opacity:0;
 }
 
-.animation-container p:last-child{
-  position:relative;
-  margin: 0px 100px;
-  opacity:0;
-}
 
 #ga-button{
   margin-top:25px;

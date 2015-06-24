@@ -1,7 +1,37 @@
-#squish-box1{
+.squish-box{
 	height:100px;
-	width: 400px;
-	margin: 60px auto;
+	width: 600px;
 	background:#222629;
+	margin: 25px auto;
 	overflow-x:scroll;
+
+	text-align:center;
+}
+
+
+
+.squish-box:first-child{
+	margin: 60px auto;	
+}
+.squish-box:last-child{
+	margin-bottom:60px;
+}
+
+.squish-box span{
+	position:relative;
+	top:35px;
+	color:white;
+}
+
+#squish-box1{
+	background:#7F7966;
+}
+#squish-box2{
+	background:#4A4A58;
+}
+#squish-box3{
+	background:#434B52;
+}
+#squish-box4{
+	background:#352F1F;
 }
