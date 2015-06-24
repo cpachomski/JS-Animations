@@ -1,38 +1,68 @@
-#div1{
-  background:red;
-  height:400px;
-  width:100%;
-}
-#div2{
-  background:blue;
-  height:400px;
-  width:100%;
-}
-#div3{
-  background:green;
-  height:400px;
-  width:100%;
-}
-#div4{
-  background:yellow;
-  height:400px;
-  width:100%;
-}
-#div5{
-  background:purple;
-  height:400px;
-  width:100%;
+body{
+  margin: 0;
+  font-family: 'Muli', 'sans-serif';
+  color:white;
 }
 
-#box-1{
-  height:200px;
+.header{
+  position:fixed; 
+  background: #222629;
+  height:500px;
+  width:100%;
+  top:0;
+  left:0;
+  color:white;
+  z-index:2;
+}
+
+.animation-container{
+  color:#222629;
   position:relative;
-  width:300px;
-  background:black;
-  margin: auto;
-  top:75px;
-  opacity: .05;
-  border-radius: 50px;
+  height: 400px;
+  width:50%;
+  margin: 100px auto;
+  top:500px;
+  border: 1px solid;
+  border-color:#394045;
+  z-index:1;
+  overflow: scroll
+}
 
+.animation-container p{
+  position:relative;
+  margin: 50px 100px;
+  opacity:0;
+}
+
+.animation-container p:last-child{
+  position:relative;
+  margin: 0px 100px;
+  opacity:0;
+}
+
+#ga-button{
+  margin-top:25px;
+  background:white;
+  height:50px;
+  width:150px;
+  border-style: none;
+  color:#0A131B;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); 
+}
+
+button{
+  margin-top:25px;
+  background:#0A131B;
+  height:50px;
+  width:150px;
+  border-style: none;
+  color:white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); 
+}
+button:focus{
+  outline:0;
+}
+button:active{
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
 }
 
