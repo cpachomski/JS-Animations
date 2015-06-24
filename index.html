@@ -1,8 +1,12 @@
 <!DOCTYPE html>
   <head>
     <title> JS | Animations </title>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' type='text/css' href="css/style.css">
+    <link rel='stylesheet' type='text/css' href="css/squish-box.css">
+
   </head>
+
 
   <body align='center'>
     <!-- Google Tag Manager -->
@@ -15,25 +19,29 @@
       })(window,document,'script','dataLayer','GTM-MBD42R');</script>
       <!-- End Google Tag Manager -->
 
-    <div  id='div1'>
-      <a href="#" id="scroll-to-purple" ><button id='to-yellow' style='margin-top:100px;'>Scroll to purple </button></a>
+    <div class="header">
+    <h1> Velocity.js Playground </h1>
+      <a href="#" id="scroll-to-purple" ><button id='ga-button' style='margin-top:100px;'><h3>Google Analytics </h3></button></a>
     </div>
 
-    <div id='div2'>
-      <div id="box-1"></div>
+
+    <div class='animation-container'>
+        <button id="show-text-btn"> Show Text</button>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
+
+      <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+    </div>
+    <div class='animation-container'>
+         <button id="squish-box-btn"> Squish Box </button>
+         <div id="squish-box">
+           
+         </div>
+   
+    </div>
+    <div class='animation-container'>
+    
     </div>
 
-    <div id='div3'>
-      <div id="box-2"></div>
-    </div>
-
-    <div id='div4'>
-      <div id="box-3"></div>
-    </div>
-
-    <div id='div5'>
-      <button id="to-red" style='margin-top:100px;'>Scroll to red </button>
-    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
