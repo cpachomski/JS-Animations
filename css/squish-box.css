@@ -1,0 +1,7 @@
+#squish-box{
+	height:100px;
+	width: 400px;
+	margin: 60px auto;
+	background:#222629;
+	overflow-x:scroll;
+}
