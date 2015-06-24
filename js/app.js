@@ -16,7 +16,26 @@ $('#show-text-btn').click(function(){
 });
 
 $('#squish-box-btn').click(function(){
-  $('#squish-box').velocity(
+  squishBox($('#squish-box1'), 'ease-in');
+  
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+var squishBox = function(e, easingType){
+  console.log(e)
+    e.velocity(
       {
         width: '100px'
 
@@ -25,6 +44,19 @@ $('#squish-box-btn').click(function(){
         duration:1000,
         easing:'spring'
       }
+    ).velocity(
+      {
+        width: '400px'
+      },
+      {
+        duration:4000,
+        easing: '' + easingType 
+      }
     )
+}
 
-});
+
+
+
+
+
