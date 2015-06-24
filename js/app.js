@@ -17,24 +17,18 @@ $('#show-text-btn').click(function(){
 
 $('#squish-box-btn').click(function(){
   squishBox($('#squish-box1'), 'ease-in');
-  
+  squishBox($('#squish-box2'), 'ease-out');
+  squishBox($('#squish-box3'), 'ease-in-out')
+  squishBox($('#squish-box4'), 'spring');
+
 
 });
 
 
 
 
-
-
-
-
-
-
-
-
-
 var squishBox = function(e, easingType){
-  console.log(e)
+  initWidth = e.width();
     e.velocity(
       {
         width: '100px'
@@ -42,11 +36,11 @@ var squishBox = function(e, easingType){
       },
       {
         duration:1000,
-        easing:'spring'
+        easing:'' + easingType
       }
     ).velocity(
       {
-        width: '400px'
+        width: initWidth + 'px'
       },
       {
         duration:4000,
