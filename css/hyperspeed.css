@@ -1,3 +1,16 @@
 #space{
+	position:absolute;
 	height:500px;
+	background:black;
+	
+}
+
+.dot{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #4bc2f1;
+  box-shadow: rgb(75, 194, 241) 0px 0px 4px 0px;
+
 }
